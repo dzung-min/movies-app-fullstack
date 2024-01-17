@@ -2,7 +2,7 @@ const URL_PREFIX = "https://api.themoviedb.org/3"
 export const API_KEY = "305c1f113377a22dbb322569c5ff54df"
 export const token = "8qlOkxz4wq"
 
-const LOCAL_URL_PREFIX = "http://localhost:5000/api/movies"
+export const LOCAL_URL_PREFIX = "http://localhost:5000/api/movies"
 
 // for high quality images
 export const IMG_URL_PREFIX_ORIGINAL = "https://image.tmdb.org/t/p/original"

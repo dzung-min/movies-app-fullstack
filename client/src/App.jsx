@@ -1,8 +1,8 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import Browse from "./pages/browse/Browse";
-import Search from "./pages/search/Search";
-import NavBar from "./components/NavBar";
+import Browse from "./pages/browse/Browse"
+import Search from "./pages/search/Search"
+import NavBar from "./components/NavBar"
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Route path="/search" element={<Search />} />
       </Routes>
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,6 +1,6 @@
 .container {
   width: 500px;
-  height: 150px;
+  height: max-content;
   margin: 100px auto;
   padding: 10px;
   border-radius: 10px;
@@ -9,18 +9,13 @@
 
 .form {
   display: flex;
-  position: relative;
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
-.container hr {
-  position: absolute;
-  width: 516px;
-  border: 2px solid #2f1657;
-  top: 2.5rem;
-  left: -10px;
-}
-
-.form input {
+.form input,
+.form select {
   width: 100%;
   height: 1.5rem;
   margin: 0 auto;
@@ -30,6 +25,7 @@
   outline: none;
   border-style: none;
   font-size: 1.2rem;
+  background-color: transparent;
 }
 
 .form svg {
@@ -37,6 +33,18 @@
   height: 1.5rem;
   display: block;
   padding: 10px;
+}
+
+.container label {
+  display: block;
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+.form select {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 42px;
 }
 
 .actions {

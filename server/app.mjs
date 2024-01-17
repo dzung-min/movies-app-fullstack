@@ -9,6 +9,8 @@ import NotFoundHandler from "./middlewares/404Handler.mjs"
 const PORT = process.env.PORT || 5000
 const app = express()
 
+app.set("view engine", "pug")
+
 app.use(cors())
 app.use(logger("dev"))
 app.use(bodyParser.urlencoded({ extended: false }))
