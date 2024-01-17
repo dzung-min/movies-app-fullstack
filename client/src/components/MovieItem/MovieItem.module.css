@@ -1,0 +1,20 @@
+.movie {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 1s;
+}
+
+.poster {
+  height: 250px;
+}
+.backdrop {
+  height: 150px;
+}
+
+.movie img {
+  height: 100%;
+}
+
+.movie:hover {
+  transform: scale(1.2);
+}
